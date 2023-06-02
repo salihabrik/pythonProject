@@ -1,4 +1,4 @@
-"""def sum(start,end):
+def sum(start,end):
     result =0
     if (start>end):
         print("end must be greater than staet")
@@ -11,7 +11,7 @@ s= int(input("enter start num"))
 p =int(input("enter end num"))
 output = sum(s,p)
 print(output)
-"""
+
 #############################
 def bigger(a,b):
     if a>b:
