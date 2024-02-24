@@ -7,7 +7,7 @@ secret_word = random.choice(words)
 
 guess = input("Guess a letter").lower()
 
-print(guess)
+#print(guess)
 
 for letter in secret_word:
     if letter == guess:
