@@ -13,6 +13,7 @@ class Course:
         if student.score >= self.max_score:
             self.students.append(student)
 
+
 s1 = Students("mohamed", 88)
 s2 = Students("Khaled", 66)
 s3 = Students("joe", 77)
