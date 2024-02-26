@@ -1,16 +1,22 @@
 import random
 
 print ("Welcome to Hangman Game")
-words = ['hacker', 'computer', 'science', 'programming', 'python', 'mathematics', 'player', 'condition', 'reverse', 'water', 'board']
+words = ['hacker', 'bounty', 'random']
 
 secret_word = random.choice(words)
 
-guess = input("Guess a letter").lower()
+display_word = []
+for letter in secret_word:
+    display_word += "_"
+    print(display_word)
+    
+    
+guess = input("Guess a letter ").lower()
 
 #print(guess)
 
 for letter in secret_word:
     if letter == guess:
-        print("right")
+        print("Right")
     else:
-        print("wrong")
+        print("Wrong")
