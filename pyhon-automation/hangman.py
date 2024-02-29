@@ -9,8 +9,8 @@ print("you get 5 guesses")
 display_word = []
 for letter in secret_word:
     display_word += "_"
-    print(display_word)    
-guess = input("Guess a letter ").lower()
+print(display_word)    
+#guess = input("Guess a letter ").lower()
 
 #print(guess)
 
