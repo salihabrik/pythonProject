@@ -32,9 +32,9 @@ while not game_over:
             num += 1
             guesses_left = 5 - num
             print(f" you have {guesses_left} guesses left ")
-            if num >= 5:
-                print("you loser") 
-                game_over = True
+        if num >= 5:
+            print("you loser")
+            game_over = True
     print(display_word)
     
     if "_" not in display_word:
