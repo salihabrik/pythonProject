@@ -28,13 +28,13 @@ while not game_over:
         letter = secret_word[position]
         if letter == guess:
             display_word[position] = letter
-            if guess not in secret_word:
-                num += 1
-                guesses_left = 5 - num
-                print(f" you have {guesses_left} guesses left ")
-                if num >= 5:
-                    print("you loser") 
-                    game_over = True
+        if guess not in secret_word:
+            num += 1
+            guesses_left = 5 - num
+            print(f" you have {guesses_left} guesses left ")
+            if num >= 5:
+                print("you loser") 
+                game_over = True
     print(display_word)
     
     if "_" not in display_word:
