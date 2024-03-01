@@ -15,7 +15,7 @@ Websites can help you :
 
 >># Github
 >># Portswigger 
->>#Tryhackme
->>#Medium
+>># Tryhackme
+>># Medium
 
 
